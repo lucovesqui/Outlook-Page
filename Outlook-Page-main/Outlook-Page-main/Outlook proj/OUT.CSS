@@ -27,7 +27,7 @@
     border-radius: 4px;
     border-width: 0.8px;
     cursor: pointer;
-    font-family: "Segoe UI";
+    font-family: segoe, "Segoe UI", Arial, sans-serif;
     line-height: 1;
 }
 .botaolog{
@@ -38,7 +38,7 @@
     color: #0078d4;
     padding: 9px 27px 12px;
     font-size: 1rem;
-    font-family: "Segoe UI";
+    font-family: segoe, "Segoe UI", Arial, sans-serif;
     border-radius: 4px;
     border-width: 1px;
 }
@@ -59,7 +59,7 @@
     line-height: 1;
     font-weight: 500;
     margin-top: 0;
-    font-family: "Segoe UI";
+    font-family: segoe, "Segoe UI", Arial, sans-serif;
 }
 .fundo h2{
     padding: 290px 0 0 0;
@@ -70,31 +70,41 @@
     font-weight: 500;
     margin-top: 0;
     margin-right: 20%;
-    font-family: "Segoe UI";
+    font-family: segoe, "Segoe UI", Arial, sans-serif;
 }
 .fundo h3{
-    margin-left: 280px;
-    color: black;
-    font-size: 1.5rem;
+    margin-left: 50px;
+    color: #333333;
+    font-size: 1.2rem;
     margin-top: 0;
-    font-family: "Segoe UI";
+    font-family: segoe, "Segoe UI", Arial, sans-serif;
+    font-weight: 500;
+}
+.fundo p{
+    font-size: 1.2rem;
+    margin-left: 50px;
+    color: #333333;
+    font-family: segoe, "Segoe UI", Arial, sans-serif;
+    line-height: 1.5;
+}
 
+.espaco{
+    background-color: white;
+    margin-left: 230px;
+    margin-top: 0px;
 }
-.btn-conta{
-    color: black;
-    text-decoration: none;
-    border: 1px;
-    padding: 14px 31px 21px;
-    display: inline;
-    font-family: "Segoe UI";
-}
-.btncriar{
+
+.Criar{
+    margin-top: 10px;
+    padding: 24px 41px 31px;
     text-align: center;
     background: #0078d4;
-    border-radius: 5px;
-    padding: 5px 100px 31px;
+    border-radius: 6px;
     color: white;
-    font-size: 1.2rem;
-    margin-left: 60%;
-    margin-top: 0;
+    font-size: 1.75rem;
+    line-height: 1.1;
+    font-weight: 500;
+    margin-left: 750px;
+    border-color: #0078d4;
+    font-family: segoe, "Segoe UI", Arial, sans-serif;
 }
